@@ -1,0 +1,75 @@
+.lelogo{
+    text-align: left;
+    max-width: 200px;
+    height:auto;
+}
+.lasousdiv{
+    display: flex;
+    background-color: rgb(236, 204, 232);
+    border-radius: 10px;
+}
+.titre{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Roboto',sans-serif;
+}
+.kiwi{
+    height: 430px;
+    width: 500px;
+}
+.imagerecherche{
+    width: 30px;
+    height: 30px;
+}
+.texterecherche{
+    color: gray;
+    font-family:'Roboto',sans-serif;
+}
+.recherche{
+    display: flex ;
+    border: 2px solid black;
+}
+.nom{
+    font-family:'Roboto',sans-serif;
+    text-decoration: underline;
+}
+.periode{
+    font-family:'Roboto',sans-serif;
+}
+.infos{
+    font-family:'Roboto',sans-serif;
+}
+.lesinfos{
+    display: flex;
+}
+footer{
+    background-color: rgb(236, 204, 232);
+    border-radius: 10px;
+}
+.bout{
+    display: flex;
+    justify-content:  space-between;
+    width: 25%;
+}
+@media screen and (max-width: 800px){
+    .lelogo{
+        height: 100px;
+        width: 150px;
+    }
+    .titre{
+        font-size: 25px;
+    }
+    .lesinfos{
+        display: block;
+    }
+    .kiwi{
+        width: 350px;
+        height: 350px;
+    }
+    .bout{
+        width: 100%;
+    }
+}

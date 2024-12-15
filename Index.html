@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon premier site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="style.css"/>
+    <script src="Thomas.js" defer></script>
+</head>
+<body id="background">
+    <header class="lehaut">
+        <div id= lasousdiv class="lasousdiv">
+            <div class="lelogo"><a href="Index.html" ><img src="logo.png" style="width: 100%; height: 100%"/></a></div>
+            <div id= titre class="titre"><p>FRUIT ACTION</p></div>
+            <div><button id = button class="button">Light Mode</button></div>
+        </div>
+        <div class="deuxsousdiv">
+            <ul id="lessaisons" class="lessaisons">
+                <li id="printemps" class="printemps active"><h2>Printemps</h2></li>
+                <li id="ete" class="ete"><h2>Eté</h2></li>
+                <li id="automne"class="automne"><h2>Automne</h2></li>
+                <li id="hiver"class="hiver"><h2>Hiver</h2></li>
+            </ul>
+            <div id="recherche" class="recherche">
+                <div><img id="imagerecherche" class="imagerecherche" src="Recherche.png" alt="recherche"></div>
+                <div><h3 class="texterecherche">Recherchez un fruit</h3></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="content-printemps" class="content fruitprintemps active">
+            <div id="content-fraise" class="fraise"><a href="Fraise.html" ><img src="fraise.png" ></a></div>
+            <div id="content-pomme" class="pomme"><a href="pomme.html" ><img src="pomme.png" ></a></div>
+            <div id="content-abricot" class="abricot"><a href="abricot.html" ><img src="abricot.png" ></a></div>
+            <div id="content-framboise" class="framboise"><a href="framboise.html" ><img src="framboise.png" ></a></div>
+            <div id="content-kiwi" class="kiwi"><a href="kiwi.html" ><img src="kiwi.png" ></a></div>
+        </div>
+        <div id="content-ete" class="content fruitete">
+            <div id="content-abricot" class="abricot "><a href="abricot.html" ><img src="abricot.png" ></a></div>
+            <div id="content-framboise" class="framboise "><a href="framboise.html" ><img src="framboise.png" ></a></div>
+            <div id="content-banane" class="banane "><a href="banane.html" ><img src="banane.png" ></a></div>
+        </div>
+        <div id="content-automne" class="content fruitautomne">
+            <div id="content-poire" class="poire"><a href="poire.html" ><img src="Poire.png" ></a></div>
+            <div id="content-kiwi" class="kiwi"><a href="kiwi.html" ><img src="kiwi.png" ></a></div>
+            <div id="content-banane" class="banane"><a href="banane.html" ><img src="banane.png" ></a></div>
+        </div>
+        <div id="content-hiver" class="content fruithiver">
+            <div id="content-pomme" class="pomme"><a href="pomme.html" ><img src="pomme.png" ></a></div> 
+            <div id="content-poire" class="poire"><a href="poire.html" ><img src="Poire.png" ></a></div>
+            <div id="content-clementine" class="clementine"><a href="clementine.html" ><img src="clementine.png" ></a></div>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+        <div class="bout">
+            <div id="contacte" class="contacte"><h4>Nous contacter</h4></div>
+            <div id="aPropos" class="aPropos"><h4>A propos</h4></div>
+            <div id="mentionsLegales" class="mentionsLegales"><h4>Mentions légales </h4></div>
+            <div><a id="connexion" class="connexion" href="formulaire.html"><h4>Connexion/Inscription </h4></a></div>
+        </div>
+    </footer>
+</body>
+</html>

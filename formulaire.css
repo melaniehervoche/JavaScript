@@ -1,0 +1,82 @@
+body{
+font-family:sans-serif;
+margin: 0;
+padding: 20px;
+}
+form{
+   border: 1px solid #ccc;
+   max-width: 500px;
+   margin: auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+}
+.infos{
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px; 
+}
+label{
+    margin-bottom: 8px;
+    display: flex;
+}
+button {
+    background-color:  rgb(236, 204, 232);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button:hover {
+    background-color: rgb(128, 59, 119);
+}
+input.valide {
+    border-color: green;
+    background-color: #e0f7e0;
+}
+input.invalide {
+    border-color: red;
+    background-color: #f8d7da;
+}
+/* la beauté de la chose. */
+.lelogo{
+    text-align: left;
+    max-width: 200px;
+    height:auto;
+}
+.lasousdiv{
+    display: flex;
+    background-color: rgb(236, 204, 232);
+    border-radius: 10px;
+}
+.lasousdivb{
+    display: flex;
+    background-color: rgb(128, 59, 119);
+    border-radius: 10px;
+}
+.titre{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Roboto',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer{
+    background-color: rgb(236, 204, 232);
+    border-radius: 10px;
+}
+.bout{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.connexion{
+    text-decoration: none;
+    color: black;
+}

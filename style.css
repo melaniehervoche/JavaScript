@@ -1,0 +1,371 @@
+.lelogo{
+    text-align: left;
+    max-width: 200px;
+    height:auto;
+}
+.background{
+    background-color: black;
+}
+.lasousdiv{
+    display: flex;
+    background-color: rgb(236, 204, 232);
+    border-radius: 10px;
+}
+.lasousdivb{
+    display: flex;
+    background-color: rgb(128, 59, 119);
+    border-radius: 10px;
+}
+.button{
+    font-size: 25px;
+    font-family:'Roboto',sans-serif;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-right: 50%;
+    margin-right: 15%;
+    border-radius: 10px;
+}
+.buttonb{
+    font-size: 25px;
+    font-family:'Roboto',sans-serif;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-right: 50%;
+    margin-right: 15%;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+.titre{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Roboto',sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.deuxsousdiv{
+    display: flex;
+}
+.lessaisons{
+    display: flex;
+    justify-content:  space-between;
+    border: 2px dashed black;
+    width: 80%;
+    list-style-type: none;
+}
+.lessaisonsb{
+    display: flex;
+    justify-content:  space-between;
+    border: 2px dashed whitesmoke;
+    width: 80%;
+    list-style-type: none;
+}
+.printemps{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+
+}
+.printemps:hover{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: rgb(128, 59, 119);
+}
+.printempsb{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: whitesmoke;
+}
+.ete{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+}
+.ete:hover{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: rgb(128, 59, 119);
+}
+.eteb{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: whitesmoke;
+}
+.automne{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+}
+.automne:hover{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: rgb(128, 59, 119);
+}
+.automneb{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: whitesmoke;
+}
+.hiver{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+}
+.hiver:hover{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: rgb(128, 59, 119);
+}
+.hiverb{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 1px 50px;
+    font-family:'Roboto',sans-serif;
+    color: whitesmoke;
+}
+.imagerecherche{
+    width: 40px;
+    height: 40px;
+    text-align: right;
+}
+.texterecherche{
+    color: gray;
+    text-align: right;
+    font-family:'Roboto',sans-serif;
+}
+.recherche{
+    display: flex;
+    text-align: right;
+    border: 2px solid black;
+    margin-left: 20px;
+    width: 20%;
+}
+.rechercheb{
+    display: flex;
+    text-align: right;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    width: 20%;
+    color: whitesmoke;
+}
+.fruitprintemps{
+    display: flex;
+    width: 100%;
+}
+.fruitete{
+    display: flex;
+    width: 100%;
+}
+.fruitautomne{
+    display: flex;
+    width: 100%;
+}
+.fruithiver{
+    display: flex;
+    width: 100%;
+}
+.fraise{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+}
+.pomme{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poire{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.abricot{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.framboise{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banane{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kiwi{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clementine{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    background-color: rgb(236, 204, 232);
+    border-radius: 10px;
+}
+.footerb{
+    background-color: rgb(128, 59, 119);
+    border-radius: 10px;
+}
+.bout{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.contacteb{
+    color: whitesmoke;
+}
+.aProposb{
+    color: whitesmoke;
+}
+.mentionsLegalesb{
+    color: whitesmoke;
+}
+.connexion{
+    text-decoration: none;
+    color: black;
+}
+.connexionb{
+    color: whitesmoke;
+}
+.content{
+    display: none;
+}
+.active{
+    display: flex;
+}
+
+@media screen and (max-width: 800px){
+    .lelogo{
+        height: 100px;
+        width: 150px;
+    }
+    .titre{
+        font-size: 25px;
+    }
+    .deuxsousdiv{
+        display: block;
+    }
+    .lessaisons{
+        width: 100%;
+    }
+    .printemps{
+        font-size: 10px;
+        padding: 1px 10px;
+    }
+    .ete{
+        font-size: 10px;
+        padding: 1px 10px;
+    }
+    .automne{
+        font-size: 10px;
+        padding: 1px 10px;
+    }
+    .hiver{
+        font-size: 10px;
+        padding: 1px 10px;
+    }
+    .texterecherche{
+        font-size: x-small;
+    }
+    .imagerecherche{
+        width: 10px;
+        height: 10px;
+    }
+    .recherche{
+        width: 40%;
+    }
+    .fraise{
+        padding-left: 0%;
+    }
+    .pomme{
+        padding-left: 0%;
+    }
+    .poire{
+        padding-left: 0%;
+    } 
+    .abricot{
+        padding-left: 0%;
+    }
+    .framboise{
+        padding-left: 0%;
+        margin-left: 0%;
+    } 
+    .banane{
+        padding-left: 0%;
+    }  
+    .kiwi{
+        padding-left: 0%;
+        margin-top: 20%;
+    }
+    .clementine{
+        padding-left: 0%;
+    }
+    .cubehaut{
+        display: block;
+    }
+    .cubebas{
+        display: block;
+    }
+    .bout{
+        width: 100%;
+    }
+}
